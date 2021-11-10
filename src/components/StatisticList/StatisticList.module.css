@@ -1,0 +1,7 @@
+.statisticList {
+    text-align: left;
+}
+
+.statisticList li:not(:last-child) {
+    margin-bottom: 15px;
+}

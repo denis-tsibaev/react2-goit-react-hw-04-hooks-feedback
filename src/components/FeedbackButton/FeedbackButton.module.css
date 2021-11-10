@@ -1,0 +1,26 @@
+.feedbackBtn {
+    min-width: 100px;
+    padding: 8px 0;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.good {
+    composes: feedbackBtn;
+    color: green;
+}
+
+.neutral {
+    composes: feedbackBtn;
+    color: orange;
+}
+
+.bad {
+    composes: feedbackBtn;
+    color: tomato;
+}
+
+.buttonList {
+    display: flex;
+    justify-content: center;
+}
